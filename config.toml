@@ -1,0 +1,52 @@
+baseURL = "https://kszalontai.github.io"
+languageCode = "en-us"
+title = "kszalontai"
+theme = "minimal"
+#disqusShortname = "username" # delete this to disable disqus comments
+#googleAnalytics = ""
+
+[params]
+    author = "Kristof Szalontai"
+    description = "software engineer"
+    githubUsername = "kszalontai"
+    accent = "#2E9AFE"
+    showBorder = true
+    backgroundColor = "white"
+    font = "Raleway" # should match the name on Google Fonts!
+    highlight = false
+    highlightStyle = "solarized-dark"
+    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+
+# [[menu.main]]
+#     url = "/"
+#     name = "home"
+    weight = 1
+
+# [[menu.main]]
+#     url = "/post/"
+#     name = "posts"
+#     weight = 2
+
+# [[menu.main]]
+#     url = "/project/"
+#     name = "projects"
+#     weight = 3
+
+# Social icons to be shown on the right-hand side of the navigation bar
+# The "name" field should match the name of the icon to be used
+# The list of available icons can be found at http://fontawesome.io/icons/
+
+[[menu.icon]]
+    url = "https://github.com/kszalontai/"
+    name = "github"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://www.linkedin.com/in/kszalontai/"
+    name = "linkedin"
+    weight = 2
+
+[[menu.icon]]
+    url = "https://stackoverflow.com/users/520615/kristu"
+    name = "stack-overflow"
+    weight = 3
