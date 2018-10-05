@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "kszalontai"
 theme = "minimal"
 #disqusShortname = "username" # delete this to disable disqus comments
-#googleAnalytics = ""
+googleAnalytics = "UA-126708702-1"
 
 [params]
     author = "Kristof Szalontai"
